@@ -6,9 +6,13 @@
   Array.new(4)
  end
  
- def add_element_to_start_of_array(array,element)
-   array.unshift("wow")
+ def add_element_to_the_end_of_array(array,element)
+   array.push("arrays!")
  end
+ 
+ def add_element_to_start_of_array(array, element)
+   array.unshift("wow")
+ end 
  
  def remove_element_from_end_of_array(array)
    array.pop
