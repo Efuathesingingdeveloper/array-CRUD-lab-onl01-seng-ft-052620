@@ -6,7 +6,7 @@
   Array.new(4)
  end
  
- def add_element_to_the_end_of_array(array,element)
+ def add_element_to_end_of_array(array,element)
    array.push("arrays!")
  end
  
